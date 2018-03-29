@@ -1,4 +1,4 @@
-div {
+#menu,#corpo,#rodape {
 margin:auto;
 width:50%;
 border:1px solid black;
@@ -12,14 +12,15 @@ background-color:grey;
 
 #corpo{
 height:400px;
+/*Código que o germano fez para centralizar*/
+display:flex;
+	align-items:center;
+	justify-content:center;
 }
 
 #corpo form{
+/*Código que o germano fez para centralizar*/
 position: absolute;
-top: 50%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%)
 }
 
 #corpo input{
