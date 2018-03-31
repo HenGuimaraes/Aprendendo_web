@@ -1,33 +1,23 @@
-#menu,#corpo,#rodape {
-margin:auto;
-width:50%;
-border:1px solid black;
+body {
+	background-image:url("../Imagens/background.png");
 }
 
-#menu {
-height:100px;
-margin-top:30px;
-background-color:grey;
-}
-
-#corpo{
-height:400px;
-/*Código que o germano fez para centralizar*/
-display:flex;
-	align-items:center;
-	justify-content:center;
+#corpo {
+	background-color:white;
+	margin:auto;
+	width:30%;
+	border:1px solid black;
+	height:400px;
+	/*Código que o germano fez para centralizar*/
+	display:flex;
+		align-items:center;
+		justify-content:center;	
 }
 
 #corpo form{
-/*Código que o germano fez para centralizar*/
-position: absolute;
+
 }
 
 #corpo input{
-border:1px solid;
-}
-
-#rodape{
-height:100px;
-background-color:grey;
+	border:1px solid;
 }
