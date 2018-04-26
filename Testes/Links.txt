@@ -4,3 +4,4 @@ https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Meu_primeiro_formu
 https://br.ccm.net/faq/7758-alterar-a-aparencia-do-cursor-com-css
 http://desenvolvimentoparaweb.com/css/flexbox/ <<<<<<<<<
 https://www.codigofonte.com.br/codigos/modelos-de-paginas-com-flexbox
+https://willianjusten.com.br/como-criar-footer-fixo/
