@@ -50,15 +50,25 @@ body .box {
 	width: 30%;
 	height: 220px;
 	border: 1px solid black;
+}
 
-	display: inherit;
+body .box form {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-body .box button{
-	padding: 10px 20px;
+body .box form button{
+	padding: 10px 30px;
 	border: 1px solid black;
-	width: 100%;
+	cursor: pointer;
+	background-color: #3ed66e;
+	color: white;
 }
 
+body .box form button:hover{
+	background-color: #05b23b;
+}
