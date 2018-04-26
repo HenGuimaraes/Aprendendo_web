@@ -1,5 +1,5 @@
 /*Fazendo a "viewport" ocupar toda a tela para que eu consiga centralizar com o flex a div*/
-html, body, #box {
+html, body {
 	/*Fazendo eles ocuparem a tela toda, por padrão o inline deles já é 100%*/
 	height: 100%;
 	margin: 0;
@@ -10,31 +10,30 @@ body {
 	/*Inserindo imagem de fundo e fazendo ela ocupar toda a viewport*/
 	background: url(../imagens/wallpaper.jpg) no-repeat center center fixed;
 	background-size: cover;
-}
 
-#box {
 	/*Centralizando o contéudo dentro desses elementos*/
 	display: flex;
 		align-items: center;
 		justify-content: center;
 }
 
+
 /*Centralizando contéudo do form, dimensionando e ajustando*/
-#box form {
+form {
 	display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 
 	padding: 10px;
-	width: 25%;
-	height: 60%;
+	width: 20%;
+	height: 45%;
 	border:1px solid black;
 	border-radius: 10px;/*Efeito de borda arredondada*/
 	background: white;
 }
 
-#box form label{
+form label{
 	/*Deixando alinhado as labels*/
 	display: inline-block;
 	width: 60px;
@@ -45,22 +44,22 @@ body {
 	font-size: 14px;
 }
 
-#box form .cont{
+form .cont{
 	padding: 10px;/*aumentando a distância entre as divs que separa o contéudo*/
 }
 
-#box form .cont input{
+form .cont input{
 	width: 70%;/*aumentando tamanho das caixas input*/
 	padding: 2px 0;
 }
 
-#box form .cont button{
+form .cont button{
 	padding: 5px 25px;
 	background: white;
 	border:1px solid black;
 }
 
-#box form .cont button:hover {
+form .cont button:hover {
 	background: black;
 	color: white;
 	cursor: pointer; /*Adicionando o efeito da mãosinha no cursor*/

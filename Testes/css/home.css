@@ -1,0 +1,40 @@
+/*Zerando a página*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Definindo a flexbox para ter um layout responsivo*/
+body {
+	/*indico o tipo de display e passo a direção do eixo*/
+	display: flex;
+    flex-direction: column;
+    /*a página tem que pegar pelo menos toda a viewport*/
+    min-height: 100vh;
+}
+
+body img {
+	float:right;
+	width: 300px; 
+	height: 200px;
+}
+
+body header {
+	height:50px;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+body #corpo {
+	width: 90%;
+	margin: 20px auto;
+	border: 1px solid black;
+	flex-grow: 1;
+}
+
+body footer {
+	height: 80px;
+	width: 100%;
+	border-top: 1px solid black;
+}
