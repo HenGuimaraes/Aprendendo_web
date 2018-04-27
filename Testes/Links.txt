@@ -2,3 +2,6 @@ http://forum.tableless.com.br/t/elemento-ocupar-sempre-100-do-viewport/1130/2
 https://pt.stackoverflow.com/questions/158358/div-superior-ocupando-toda-tela << div ocupar a tela toda
 https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Meu_primeiro_formulario_HTML
 https://br.ccm.net/faq/7758-alterar-a-aparencia-do-cursor-com-css
+http://desenvolvimentoparaweb.com/css/flexbox/ <<<<<<<<<
+https://www.codigofonte.com.br/codigos/modelos-de-paginas-com-flexbox
+https://willianjusten.com.br/como-criar-footer-fixo/
