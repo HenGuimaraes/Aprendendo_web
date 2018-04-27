@@ -15,13 +15,6 @@ body {
 	display: flex;
 		align-items: center;
 		justify-content: center;
-
-	padding: 10px;
-	width: 25%;
-	height: 60%;
-	border:1px solid black;
-	border-radius: 10px;/*Efeito de borda arredondada*/
-	background: white;
 }
 
 
@@ -31,8 +24,6 @@ form {
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-<<<<<<< HEAD:Testes/css/estilo.css
-=======
 
 	padding: 10px;
 	width: 20%;
@@ -40,7 +31,6 @@ form {
 	border:1px solid black;
 	border-radius: 10px;/*Efeito de borda arredondada*/
 	background: white;
->>>>>>> 062d2fb866b9e6ea32f22b2724045d2b32f5856a:Testes/css/login.css
 }
 
 form label{
